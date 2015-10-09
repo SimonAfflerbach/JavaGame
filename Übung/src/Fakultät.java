@@ -6,7 +6,7 @@ public class Fakultät {
 	
 	public static void main(String[] args) {
 		
-		 System.out.println("fac(5) = "+fac(5));
+		 System.out.println("fac(5) = "+fac(15));
 
 	}
 
