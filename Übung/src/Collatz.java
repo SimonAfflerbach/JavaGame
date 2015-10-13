@@ -1,8 +1,7 @@
-
-	public class collatz {
+public class Collatz {
 public static void main( String[] args) {
 
-int n = 29;
+int n = 234;
 
 while ( n > 1) {
 
