@@ -51,6 +51,10 @@ public class Vertex {
     	x=x+s;
     	y=y+s;
    }
+   
+   public Vertex add(Vertex v){
+		return new Vertex(x+v.x, y+v.y);
+	}
     
    public double getX(){
 	   return x;

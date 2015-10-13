@@ -78,7 +78,7 @@ public class GeometricObject {
 		}
 		return false;
     }
-	
+    public GeometricObject(){ this(10);
+	}
 }
-	
 	
