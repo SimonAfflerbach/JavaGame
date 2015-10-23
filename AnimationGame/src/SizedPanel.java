@@ -4,8 +4,8 @@ import javax.swing.*;
 
  public class SizedPanel extends JPanel {
 	 
-	 int preferredWidth=400;
-	 int preferredHeight=300;
+	 int preferredWidth=1000;
+	 int preferredHeight=900;
 	 
 	 public SizedPanel(int w,int h) {
 

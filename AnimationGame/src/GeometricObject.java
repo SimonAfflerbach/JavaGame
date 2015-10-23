@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 public class GeometricObject {
 
 	public Vertex pos;
@@ -12,6 +14,7 @@ public class GeometricObject {
 		this.pos=pos;
 		this.width=width;
 		this.height=height;
+	
 		
 		if(this.width<0){
 			this.width = -this.width;

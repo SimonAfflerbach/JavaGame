@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class SimpleSizedPanel extends SizedPanel {
 	public void paintComponent(java.awt.Graphics g){
-		g.fillRect(30, 50, 45, 80);
+		g.fillRect(300, 350, 450, 350);
 	}
 
 	public static void main(String[] args) {
