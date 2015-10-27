@@ -12,17 +12,13 @@ public class PaintablePanel extends SizedPanel{
 	
 	public static void main(String [] args) {
 
-		ShowInFrame.show
+		ShowInFrame.show(new PaintablePanel(new PaintableOval(100,50,30,50)));
 
-		(new PaintablePanel(new PaintableOval(100,50,30,50)));
-
-		ShowInFrame.show
-
-		(new PaintablePanel(new PaintableOval(10,10,130,40)));
+		ShowInFrame.show(new PaintablePanel(new PaintableOval(10,10,130,40)));
 		
-		ShowInFrame.show
-
-		(new PaintablePanel(new SimplePaintableRectangle(10,10,130,40)));
+		ShowInFrame.show(new PaintablePanel(new SimplePaintableRectangle(10,10,130,40)));
+		
+		ShowInFrame.show(new PaintablePanel(new PaintableStar(new Vertex(50,50))));
 		
 	}
 	
